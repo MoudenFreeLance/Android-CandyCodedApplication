@@ -73,7 +73,9 @@
         android:adjustViewBounds="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/image_view_map"
-        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+        app:srcCompat="@android:drawable/stat_sys_phone_call"
+        android:clickable="true"
+        android:onClick="createPhoneIntent"/>
 
     <ImageView
         android:id="@+id/image_view_hours"
