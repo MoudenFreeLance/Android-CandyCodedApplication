@@ -30,7 +30,6 @@ public class InfoActivity extends AppCompatActivity {
     // ***
     public void createMapIntent(View view){
     Uri uriAdress = Uri.parse("geo:0,0?q=E 618 South St Orlando, FL 32801");
-    Intent mapIntent = new Intent(Intent.ACTION_VIEW, uriAdress);
     }
 
 
