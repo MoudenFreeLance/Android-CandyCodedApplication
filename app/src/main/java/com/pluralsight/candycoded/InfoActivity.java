@@ -32,7 +32,7 @@ public class InfoActivity extends AppCompatActivity {
     Uri uriAdress = Uri.parse("geo:0,0?q=E 618 South St Orlando, FL 32801");
     }
 
-
+    }
 
     // ***
     // TODO - Task 3 - Launch the Phone Activity
